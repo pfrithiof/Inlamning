@@ -35,8 +35,33 @@
         </aside>
 
         <main>
-
-
+            <h1>
+                Fyll i nedanstående för att boka tid
+            </h1>
+            <form action="landskap.html" method="post">
+                <fieldset>
+                    <p>
+                        <label for="name">Ange ditt namn</label>
+                        <br>
+                        <input type="text" name="name" id="name" minlength="2" maxlength="60">
+                    </p>
+                    <p>
+                        <label for="email">Ange din mail</label>
+                        <br>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p>
+                        <label for="age">Ange din ålder</label>
+                        <br>
+                        <input type="number" name="age" id="age">
+                    </p>
+                    <p>
+                        <label for="question">Har du några frågor? Ställ dem här!</label>
+                        <br>
+                        <textarea name="question" id="question" cols="30" rows="10"></textarea>
+                    </p>
+                </fieldset>
+            
         </main>
 
     </div>
