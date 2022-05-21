@@ -7,7 +7,8 @@ header {
 
 header img {
     width: 100%;
-    height: 10em
+    height: 10em;
+    object-fit: cover;
 }
 nav {
     border: 1px solid black;
@@ -93,6 +94,10 @@ table, th, td {
     border: 1px solid black;
 }
 
+main {
+    background-color: beige;
+}
+
 main img {
     width: 320px;
     image-resolution:inherit;
@@ -110,6 +115,7 @@ main td {
     color: blue;
     padding: 0;
 }
+
 
 .bottom-left {
     position: absolute;
