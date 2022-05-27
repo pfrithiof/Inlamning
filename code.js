@@ -1,5 +1,4 @@
 const changeColor = document.querySelector("#color");
-const inputText = document.querySelector("input");
 
 changeColor.addEventListener("change", function(event) {
     console.log(event.target, event, event.target.value);
