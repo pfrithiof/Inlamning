@@ -91,6 +91,11 @@ main a {
     color: rgb(0, 59, 252);
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+}
+
 main a:hover {
     background-color: blue;
 }
