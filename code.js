@@ -4,7 +4,7 @@ changeColor.addEventListener("change", function(event) {
     console.log(event.target, event, event.target.value);
 
     // Ãndra sidans style background-color backgroundColor
-    document.body.main.style.backgroundColor = event.target.value;
+    document.body.style.backgroundColor = event.target.value;
 
 function initMap() {
     
